@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NationalDocumentValidator
+﻿namespace NationalDocumentValidator
 {
     public interface IDocumentValidator
     {

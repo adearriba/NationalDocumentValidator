@@ -12,6 +12,8 @@ namespace NationalDocumentValidator
                     return new SpainValidator();
                 case Countries.FRA:
                     return new FranceValidator();
+                case Countries.GBR:
+                    return new UnitedKingdomValidator();
                 default:
                     return new DefaultValidator();
             }
