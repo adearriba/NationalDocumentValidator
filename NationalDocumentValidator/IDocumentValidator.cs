@@ -4,6 +4,6 @@ namespace NationalDocumentValidator
 {
     public interface IDocumentValidator
     {
-        public bool Validate(string document);
+        public bool IsValid(string document);
     }
 }

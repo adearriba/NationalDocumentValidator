@@ -6,7 +6,7 @@ namespace NationalDocumentValidator.DocumentValidators
 {
     public class DefaultValidator : IDocumentValidator
     {
-        public bool Validate(string document)
+        public bool IsValid(string document)
         {
             throw new ArgumentException($"There is no validator for the ISO value provided.");
         }

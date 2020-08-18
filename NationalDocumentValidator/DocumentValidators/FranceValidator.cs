@@ -7,7 +7,7 @@ namespace NationalDocumentValidator.DocumentValidators
 {
     public class FranceValidator : IDocumentValidator
     {
-        public bool Validate(string document)
+        public bool IsValid(string document)
         {
             document = document.ToUpper().Replace(" ", "");
             if (ValidateSocialNumber(document)) return true;

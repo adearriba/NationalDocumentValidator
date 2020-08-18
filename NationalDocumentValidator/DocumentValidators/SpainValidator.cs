@@ -7,7 +7,7 @@ namespace NationalDocumentValidator.DocumentValidators
 {
     public class SpainValidator : IDocumentValidator
     {
-        public bool Validate(string document)
+        public bool IsValid(string document)
         {
             document = document.ToUpper().Replace(" ", "");
             if (ValidateNIForNIE(document)) return true;
