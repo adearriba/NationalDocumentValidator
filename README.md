@@ -1,7 +1,9 @@
-# National Document Validator
-Para validar un documento solamente se debe obtener el validador por medio de **DocumentValidatorFactory** y ejecutar el método **GetValidator(string ISO)** pasando el valor ISO de 3 caracteres de país.
+![Build&Test](https://github.com/adearriba/NationalDocumentValidator/workflows/Build&Test/badge.svg)
 
-Después se ejecuta la función **IsValid** con el valor del documento a validar.
+# National Document Validator
+Para validar un documento solamente se debe obtener el validador por medio de **DocumentValidatorFactory** y ejecutar el mÃ©todo **GetValidator(string ISO)** pasando el valor ISO de 3 caracteres de paÃ­s.
+
+DespuÃ©s se ejecuta la funciÃ³n **IsValid** con el valor del documento a validar.
 
 ```csharp
 var validator = DocumentValidatorFactory.GetValidator("ESP");
