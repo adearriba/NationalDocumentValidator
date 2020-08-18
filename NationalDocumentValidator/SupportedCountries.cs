@@ -4,6 +4,7 @@
     {
         ESP,
         FRA,
-        GBR
+        GBR,
+        USA
     }
 }

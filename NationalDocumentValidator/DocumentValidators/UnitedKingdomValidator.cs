@@ -17,7 +17,7 @@ namespace NationalDocumentValidator.DocumentValidators
             return false;
         }
 
-        public bool ValidateNINO(string document)
+        private bool ValidateNINO(string document)
         {
             Regex ninoRegex = new Regex(@"^(?<prefix>[ABCEGHJKLMNOPRSTWXYZ][ABCEGHJKLMNPRSTWXYZ])(?<sequence>[0-9]{6})(?<letter>[ABCDFMP])$");
 
@@ -32,7 +32,7 @@ namespace NationalDocumentValidator.DocumentValidators
             return true;
         }
 
-        public bool ValidatePassport(string document)
+        private bool ValidatePassport(string document)
         {
             Regex regex = new Regex(@"^\d{9}$");
             return regex.IsMatch(document);

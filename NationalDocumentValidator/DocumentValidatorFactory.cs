@@ -14,6 +14,8 @@ namespace NationalDocumentValidator
                     return new FranceValidator();
                 case Countries.GBR:
                     return new UnitedKingdomValidator();
+                case Countries.USA:
+                    return new UnitedStatesValidator();
                 default:
                     return new DefaultValidator();
             }
