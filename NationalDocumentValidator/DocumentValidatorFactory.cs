@@ -4,13 +4,13 @@ namespace NationalDocumentValidator
 {
     public class DocumentValidatorFactory
     {
-        public static IDocumentValidator GetValidator(string countryISO)
+        public static IDocumentValidator GetValidator(Countries country)
         {
-            switch (countryISO)
+            switch (country)
             {
-                case "ESP":
+                case Countries.ESP:
                     return new SpainValidator();
-                case "FRA":
+                case Countries.FRA:
                     return new FranceValidator();
                 default:
                     return new DefaultValidator();

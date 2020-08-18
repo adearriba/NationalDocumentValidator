@@ -9,7 +9,7 @@ namespace NationalDocumentValidator.Test.DocumentValidators
         [Test]
         public void Test1()
         {
-            var validator = DocumentValidatorFactory.GetValidator("FRA");
+            var validator = DocumentValidatorFactory.GetValidator(Countries.FRA);
             bool result = false;
 
             result = validator.IsValid("180126955222380");
