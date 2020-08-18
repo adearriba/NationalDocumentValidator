@@ -15,4 +15,5 @@ Pais | ISO | Documentos
 España | ESP | NIF, NIE, Pasaporte
 Francia | FRA | INSEE, Pasaporte
 Reino Unido | GBR | NINO, Pasaporte
+Estados Unidos | USA | SSN, Pasaporte
 
