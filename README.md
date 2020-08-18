@@ -9,3 +9,8 @@ Después se ejecuta la función **IsValid** con el valor del documento a validar
 var validator = DocumentValidatorFactory.GetValidator("ESP");
 bool result = validator.IsValid("36120423G");
 ```
+## Lista de Países implementados
+Pais | ISO | Documentos
+------------ | ------------- | -------------
+España | ESP | NIF, NIE, Pasaporte
+Francia | FRA | INSEE, Pasaporte
